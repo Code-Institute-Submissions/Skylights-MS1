@@ -19,3 +19,60 @@ html, body {
     background-color: #6c757d;
     color: #fff;
 }
+/*--------------------------------------------------------------------Meet The Band*/
+.about {
+    padding: 30px 0;
+    text-align: center;
+}
+.about h2 {
+    position: relative;
+    padding: 0px 0px 15px;
+}
+.about p {
+    font-size: 15px;
+    padding: 0px;
+    margin: 25px 0px 40px;
+}
+.about h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 90px;
+    margin: 0 auto;
+    display: block;
+}
+.about .member {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.about .member .member-info {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: -200px;
+    transition: 0.4s;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.about .member:hover .member-info {
+    left: 0px;
+    right: 0px;
+}
+.about .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+.about .member span {
+    font-style: italic;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+}
+.about .member {
+    margin-top: 15px;
+}
