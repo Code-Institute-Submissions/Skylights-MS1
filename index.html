@@ -18,11 +18,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>SKYLIGHTS</title>
+    <title>Skylights</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary navbar-default">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
         <div class="container-fluid">
             <a class="navbar-brand heading" href="index.html">Skylights</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
@@ -35,8 +35,6 @@
                     <a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item">
                     <a class="nav-link" href="#events">Events</a></li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a></li>
             </ul>                
         </div>
         </div>
@@ -45,46 +43,30 @@
     <hr class="m-0" />
     <section class="text-center" id="events">
         <h4 class="mb-4 mt-4 heading"><strong>Upcoming Events</strong></h4>
-
-        <div class="row text-center justify-content-center">
-          <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="./assets/images/events/event1.jpg" class="img-fluid">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><strong>Bingley Weekender '21</strong></h5>
-                <p class="card-text">
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique sapiente assumenda? Sequi esse provident nesciunt et delectus ad possimus consectetur rerum doloremque veritatis. Explicabo provident quaerat perferendis in quidem.
-                </p>
-                <a href="#!" class="btn btn-secondary">Buy Tickets</a>
-              </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center gig-cards">
+            <div class="col mb-4">
+                <div class="card card-hover">               
+                    <img src="./assets/images/events/event1.jpg" class="card-img-top" alt="leeds-gig-poster">                    
+                    <div class="card-body text-center text-secondary">
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> Bradford & Bingley Rugby Club</h5>
+                        <p class="card-text"><i class="fas fa-calendar-alt gig-date"></i> 6th-8th July 2021</p>
+                        <a class="btn btn-secondary btn-sm" href="https://www.ticketmaster.com" target="_blank">Order Now</a>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="./assets/images/events/event2.jpg" class="img-fluid">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><strong>Shed Seven</strong></h5>
-                <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique sapiente assumenda? Sequi esse provident nesciunt et delectus ad possimus consectetur rerum doloremque veritatis. Explicabo provident quaerat perferendis in quidem.
-                </p>
-                <a href="#!" class="btn btn-secondary">Buy Tickets</a>
-              </div>
+            <div class="col mb-4">
+                <div class="card card-hover">
+                    <img src="./assets/images/events/event2.jpg" class="card-img-top" alt="glasgow-gig-poster">
+                    <div class="card-body text-center text-secondary">
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> The Piece Hall, Halifax</h5>
+                        <p class="card-text"><i class="fas fa-calendar-alt gig-date"></i> 28th August 2021</p>
+                        <a class="btn btn-secondary btn-sm" href="https://www.ticketmaster.com" target="_blank">Order Now</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-<!--Contact Form-->
+        </div>         
+    </section>
+<!--Newsletter-->
     <hr class="m-0" />
 
     <section class="mb-5">
@@ -111,11 +93,11 @@
                 <input type="email" id="email" class="form-control" placeholder="Email Address">
               </div>
 
-              <button type="submit" class="btn btn-secondary btn-block mb-5">Sign Up</button>            
+              <button type="submit" class="btn btn-secondary btn-block mb-4">Sign Up</button>            
             </form>
           </div>
         </div>
-      </section>
+    </section>
 <!--Footer-->
     <footer class="bg-light text-lg-start">
 

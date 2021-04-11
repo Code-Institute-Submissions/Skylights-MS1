@@ -5,8 +5,15 @@ html, body {
 }
 .navbar-brand, .heading {
     font-family: 'Archivo Black', sans-serif;
+    text-shadow: 1.2px 1.2px #6c757d;
     text-transform: uppercase;
     font-size: 35px;
+}
+.navbar-nav li {
+    font-size: 20px;
+}
+.card-body {
+    color: #6c757d;
 }
 #footer-bar {
     background-color: #6c757d;
