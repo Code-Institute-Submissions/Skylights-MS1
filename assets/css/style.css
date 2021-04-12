@@ -4,6 +4,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+/*--------------------------------------------------------------------Navbar*/
 .navbar-brand, .heading {
     font-family: 'Archivo Black', sans-serif;
     text-shadow: 1.2px 1.2px #6c757d;
@@ -13,12 +14,15 @@ html, body {
 .navbar-nav li {
     font-size: 20px;
 }
-.card-body {
-    color: #6c757d;
-}
+/*--------------------------------------------------------------------Footer*/
 #footer-bar {
     background-color: #6c757d;
     color: #fff;
+}
+/*--------------------------------------------------------------------Jumbotron*/
+.jumbotron-fluid {
+  background-image: url("../images/bg.jpg");
+  background-size: cover; 
 }
 /*--------------------------------------------------------------------Meet The Band*/
 .about {
@@ -77,6 +81,33 @@ html, body {
 .about .member {
     margin-top: 15px;
 }
+.card-body {
+    color: #6c757d;
+}
+/*--------------------------------------------------------------------Events*/
 .essential-info {
     font-size: 15px;
+}
+/*--------------------------------------------------------------------Media Queries*/
+@media only screen and (max-width: 280px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (max-width: 576px) {
+
+}
+@media only screen and (max-width: 768px) {
+    .jumbotron-fluid {
+        height: 250px;
+        width: auto;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .jumbotron-fluid {
+        height: 600px;
+        width: auto;
+    }
 }
