@@ -91,6 +91,9 @@ html, body {
 .about .member {
     margin-top: 15px;
 }
+.meet p {
+    font-size: 16px;
+}
 /*--------------------------------------------------------------------Discography*/
 .spotify {
     margin: 0 8px 0 8px;
@@ -102,7 +105,7 @@ html, body {
 .modal-header > h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    color: #FF0000;
+    color: #d9534f;
     text-shadow: 1.2px 1.2px #000;
 }
 .card, .card-title, .card-text {
@@ -110,9 +113,27 @@ html, body {
     border: none;
     color: #fff;
 }
+.form-check-label, .essential-info {
+    color: #000 !important;
+}
 /*--------------------------------------------------------------------Media Queries*/
 @media only screen and (max-width: 280px) {
-
+    #darkness-falls {
+        width: 300px;
+        height: 80px;
+    }
+    #enemies {
+        width: 300px;
+        height: 80px;
+    }
+    #yra {
+        width: 300px;
+        height: 80px;
+    }
+    #nlts {
+        width: 300px;
+        height: 80px;
+    }
 }
 @media only screen and (max-width: 320px) {
     #darkness-falls {
