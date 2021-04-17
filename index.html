@@ -24,7 +24,7 @@
 
 <body>
 <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand heading" href="index.html">Skylights</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
@@ -50,8 +50,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <h2 class="heading" id="#about">Meet The Band</h2>
-                    <p>Skylights are an indie rock band hailing from York and Leeds.
+                    <h2 class="heading mt-5" id="#about">Meet The Band</h2>
+                    <p class="mb-5">Skylights are an indie rock band hailing from York and Leeds.
                         The band members consist of Vocalist – Rob Scarisbrick, Guitarist – Turnbull Smith, Drummer - Myles Soley and Bassist – Jonny Scarisbrick.
                         The band are heavily influenced by the sounds of Leeds band – The Music, Manchester’s Oasis, Wigan’s The Verve as well as the punkier tones of the likes of Sex Pistols and The Clash.</p>
                 </div>
@@ -104,21 +104,45 @@
         </div>        
     </section>
 <!--Discography-->
-    <section class="container text-center mb-4">
-        <h2 class="mb-4 mt-4 heading">Discography</h2>
-        <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/tv9GzXrH4lA" title="Darkness Falls Music Video" allowfullscreen></iframe>
+    <section class="text-center mt-5">        
+        <h2 class="heading mb-5" id="discography">Discography</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://open.spotify.com/embed/track/6n65pBfYNFklTJhbTEMimN" class="spotify" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/track/6cKtPZ7hsjCHyPdksRkmD4" class="spotify" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/track/5lCxkWD69p52BjbdzDWZTY" class="spotify" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/track/1GSiOlzDSSKr0eiXOoS0a1" class="spotify" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+            </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!--<div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/tv9GzXrH4lA" title="Darkness Falls Music Video" allowfullscreen></iframe>
+        </div>
+    </section>-->
 <!--Events Cards-->
     <section class="text-center mb-4">
-        <h4 class="mb-4 mt-4 heading" id="events">Upcoming Events</h4>
+        <h2 class="mb-5 mt-5 heading" id="events">Upcoming Events</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center gig-cards">
             <div class="col mb-4">
                 <div class="card card-hover">               
                     <img src="./assets/images/events/event1.jpg" class="card-img-top" alt="leeds-gig-poster">                    
                     <div class="card-body text-center text-secondary">
-                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> Bradford & Bingley Rugby Club</h5>
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> Bradford Rugby Club</h5>
                         <p class="card-text"><i class="fas fa-calendar-alt gig-date"></i> 6th-8th July 2021</p>
                         <button type="button" class="btn btn-danger">SOLD OUT</button>
                     </div>
@@ -218,9 +242,8 @@
         </div>         
     </section>
 <!--Contact Form-->
-    <hr class="m-0">
     <section class="container" id="contact">
-        <h4 class="mb-2 mt-4 text-center heading">Contact Us</h4>
+        <h2 class="mb-2 mt-5 text-center heading">Contact Us</h2>
         <div class="row">
             <div class="col py-5">
                 <form id="contact-form" method="post" action="" role="form">
@@ -273,27 +296,9 @@
             </div>
         </div>
     </section>
-<!--Newsletter-->
-    <hr class="m-0">
-    <section class="mb-4 text-center">
-        <h4 class="mb-2 mt-4 heading">Newsletter</h4>
-        <p class="text-center">Join our Mailing List for Exclusive Info, Event Dates & Announcments.</p>
-
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-3">
-            <form class="text-center">
-              <div class="form-outline mb-4">
-                <input type="email" id="email" class="form-control" placeholder="Email Address">
-              </div>
-              <button type="submit" class="btn btn-secondary btn-block mb-4">Sign Up</button>            
-            </form>
-          </div>
-        </div>
-    </section>
 <!--Footer-->
     <footer class="bg-light text-lg-start">
-        <hr class="m-0" />
-        <div class="text-center py-5">
+        <div class="text-center py-5 socials">
             <p>Follow Us On Our Socials</p>
             <a href="https://www.facebook.com/" class="btn btn-secondary m-1" role="button" rel="nofollow"
                 target="_blank">
