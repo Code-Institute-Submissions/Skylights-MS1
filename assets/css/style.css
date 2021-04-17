@@ -115,20 +115,100 @@ html, body {
 
 }
 @media only screen and (max-width: 320px) {
-
+    #darkness-falls {
+        width: 300px;
+        height: 80px;
+    }
+    #enemies {
+        width: 300px;
+        height: 80px;
+    }
+    #yra {
+        width: 300px;
+        height: 80px;
+    }
+    #nlts {
+        width: 300px;
+        height: 80px;
+    }
 }
 @media only screen and (max-width: 576px) {
-
+    #darkness-falls {
+        width: 300px;
+        height: 80px;
+    }
+    #enemies {
+        width: 300px;
+        height: 80px;
+    }
+    #yra {
+        width: 300px;
+        height: 80px;
+    }
+    #nlts {
+        width: 300px;
+        height: 80px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .jumbotron-fluid {
         height: 250px;
         width: auto;
     }
+    #darkness-falls {
+        width: 300px;
+        height: 80px;
+    }
+    #enemies {
+        width: 300px;
+        height: 80px;
+    }
+    #yra {
+        width: 300px;
+        height: 80px;
+    }
+    #nlts {
+        width: 300px;
+        height: 80px;
+    }
 }
 @media only screen and (min-width: 992px) {
     .jumbotron-fluid {
         height: 600px;
         width: auto;
+    }
+    #darkness-falls {
+        width: 300px;
+        height: 80px;
+    }
+    #enemies {
+        width: 300px;
+        height: 80px;
+    }
+    #yra {
+        width: 300px;
+        height: 80px;
+    }
+    #nlts {
+        width: 300px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width: 1281px) {
+    #darkness-falls {
+        width: 300px;
+        height: 380px;
+    }
+    #enemies {
+        width: 300px;
+        height: 380px;
+    }
+    #yra {
+        width: 300px;
+        height: 380px;
+    }
+    #nlts {
+        width: 300px;
+        height: 380px;
     }
 }
