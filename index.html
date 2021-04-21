@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
@@ -45,14 +46,16 @@
     </nav>
 <!--Jumbotron-->
     <div class="jumbotron-fluid rounded-0 container card card-image">
-        <figure class="jkquote">
-            <blockquote class="blockquote">
-                <p>“Skylights are one of the best bands from the North at the moment."</p>
-            </blockquote>
-            <figcaption class="blockquote-footer text-white">
-                John Kennedy <cite title="Source Title">Radio X</cite>
-            </figcaption>
-        </figure>
+        <div class="container-fluid">
+            <figure class="jkquote text-center w-100">
+                <blockquote class="blockquote">
+                    <p>“Skylights are one of the best bands from the North at the moment."</p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-white">
+                    John Kennedy <cite title="Source Title">Radio X</cite>
+                </figcaption>
+            </figure>
+        </div>
     </div>
 <!--Meet The Band-->
     <section class="about">
@@ -117,8 +120,8 @@
         </div>        
     </section>
 <!--Discography-->
-    <section class="container text-center mt-5">        
-        <h2 class="heading mb-5" id="discography">Discography</h2>
+    <section class="container text-center mt-5 discography">        
+        <h2 class="heading mb-5">Discography</h2>
         <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente natus aliquam repudiandae dicta, nemo voluptatum odit quae minima doloribus magnam ad quo, iure, nesciunt doloremque maxime consequuntur earum architecto!</p>
         <div class="container mb-5">
             <div class="ratio ratio-16x9">
@@ -135,26 +138,26 @@
         </div>
     </section>
 <!--Events Cards-->
-    <section class="container text-center mb-4">
+    <section class="container text-center mb-4 gigs">
         <h2 class="mt-5 mb-5 heading" id="events">Upcoming Events</h2>
         <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis totam, recusandae cum aut dignissimos ducimus dolor quas vitae, sint atque molestiae culpa accusantium magnam quos, doloremque repellat repudiandae fugit!</p>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center gig-cards">
             <div class="col mb-4">
-                <div class="card card-hover">               
-                    <img src="./assets/images/events/event1.jpg" class="card-img-top" alt="leeds-gig-poster">                    
+                <div class="card">               
+                    <img src="./assets/images/events/event1.jpg" class="card-img-top" alt="bradford-bingley-poster">                    
                     <div class="card-body text-center text-secondary">
-                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> Bradford & Bingley Rugby Club</h5>
-                        <p class="card-text"><i class="fas fa-calendar-alt gig-date"></i> 6th-8th July 2021</p>
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Bradford & Bingley Rugby Club</h5>
+                        <p class="card-text"><i class="fas fa-calendar-alt"></i> 6th-8th July 2021</p>
                         <button type="button" class="btn btn-danger">SOLD OUT</button>
                     </div>
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card card-hover">
-                    <img src="./assets/images/events/event2.jpg" class="card-img-top" alt="glasgow-gig-poster">
+                <div class="card">
+                    <img src="./assets/images/events/event2.jpg" class="card-img-top alt="halifax-gig-poster">
                     <div class="card-body text-center text-secondary">
-                        <h5 class="card-title"><i class="fas fa-map-marker-alt gig-location"></i> The Piece Hall, Halifax</h5>
-                        <p class="card-text"><i class="fas fa-calendar-alt gig-date"></i> 28th August 2021</p>
+                        <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> The Piece Hall, Halifax</h5>
+                        <p class="card-text"><i class="fas fa-calendar-alt"></i> 28th August 2021</p>
                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#shedsevenModal">
                         Get Tickets
                         </button>
