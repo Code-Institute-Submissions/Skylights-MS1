@@ -35,6 +35,16 @@ html, body {
   background-image: url("../images/bg.jpg");
   background-size: cover;
 }
+.jkquote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.blockquote {
+    font-size: 25px;
+}
 /*--------------------------------------------------------------------Meet The Band*/
 .about {
     text-align: center;
@@ -96,7 +106,7 @@ html, body {
 }
 /*--------------------------------------------------------------------Discography*/
 .spotify {
-    margin: 0 8px 0 8px;
+    margin: 0 10px 0 11px;
 }
 /*--------------------------------------------------------------------Events*/
 .essential-info {
@@ -118,37 +128,13 @@ html, body {
 }
 /*--------------------------------------------------------------------Media Queries*/
 @media only screen and (max-width: 280px) {
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
 }
 @media only screen and (max-width: 320px) {
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
@@ -158,19 +144,7 @@ html, body {
         height: 250px;
         width: auto;
     }
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
@@ -180,19 +154,7 @@ html, body {
         height: 250px;
         width: auto;
     }
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
@@ -202,19 +164,7 @@ html, body {
         height: 400px;
         width: auto;
     }
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
@@ -224,37 +174,13 @@ html, body {
         height: 600px;
         width: auto;
     }
-    #wya {
-        width: 300px;
-        height: 80px;
-    }
-    #enemies {
-        width: 300px;
-        height: 80px;
-    }
-    #yra {
-        width: 300px;
-        height: 80px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 80px;
     }
 }
 @media only screen and (min-width: 1281px) {
-    #wya {
-        width: 300px;
-        height: 380px;
-    }
-    #enemies {
-        width: 300px;
-        height: 380px;
-    }
-    #yra {
-        width: 300px;
-        height: 380px;
-    }
-    #nlts {
+    .spotify {
         width: 300px;
         height: 380px;
     }
