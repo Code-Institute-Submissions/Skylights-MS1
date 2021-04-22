@@ -210,4 +210,13 @@ html, body {
     .blockquote-footer {
         font-size: 20px;
     }
+    .navbar-brand {
+        font-size: 50px !important;
+    }
+    .heading {
+        font-size: 45px;
+    }    
+    .meet p, .discography p, .gigs p {
+        font-size: 16px;
+    }
 }
