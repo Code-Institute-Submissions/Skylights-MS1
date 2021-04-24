@@ -50,10 +50,6 @@ html, body {
 .about {
     text-align: center;
 }
-.about h2 {
-    position: relative;
-    padding: 0px 0px 15px;
-}
 .about p {
     font-size: 15px;
     padding: 0px;
@@ -108,6 +104,9 @@ html, body {
 /*--------------------------------------------------------------------Discography*/
 .spotify {
     margin: 0 10px 0 11px;
+}
+.table-highlight {
+    background-color: slategray !important;
 }
 /*--------------------------------------------------------------------Events*/
 .essential-info {
