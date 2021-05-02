@@ -126,6 +126,9 @@ html, body {
 .form-check-label, .essential-info {
     color: #000 !important;
 }
+.team-section {
+    background-color: #212529;
+}
 /*--------------------------------------------------------------------Media Queries*/
 @media only screen and (min-width: 280px) {
     .navbar-brand {
