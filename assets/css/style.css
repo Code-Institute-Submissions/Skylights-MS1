@@ -19,9 +19,6 @@ html, body {
     text-transform: uppercase;
     font-size: 35px;
 }
-.navbar-nav li {
-    font-size: 20px;
-}
 .navbar-dark {
     background-color: #212529 !important;
 }
@@ -35,9 +32,9 @@ html, body {
     text-decoration: none;
 }
 .fa-arrow-alt-circle-up{
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    right: 15px;
+    right: 10px;
 }
 /*--------------------------------------------------------------------Jumbotron*/
 .jumbotron-fluid {
@@ -136,16 +133,23 @@ html, body {
 .team-section {
     background-color: #212529;
 }
+/*--------------------------------------------------------------------Contact Form*/
+.required {
+    font-size: 13px;
+}
 /*--------------------------------------------------------------------Media Queries*/
 @media only screen and (min-width: 280px) {
     .navbar-brand {
         font-size: 28px !important;
     }
+    .navbar-nav li {
+        font-size: 16px;
+    }
     .heading {
         font-size: 30px;
     }    
     .meet p, .discography p, .gigs p {
-        font-size: 13px;
+        font-size: 14px;
     }
     .jumbotron-fluid {
         height: 200px;
@@ -182,6 +186,9 @@ html, body {
         height: 80px;
     }
     .blockquote p {
+        font-size: 18px;
+    }
+    .navbar-nav li {
         font-size: 18px;
     }
 }
