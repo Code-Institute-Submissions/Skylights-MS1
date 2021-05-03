@@ -113,6 +113,9 @@ html, body {
 .table-highlight {
     background-color: slategray !important;
 }
+.spotify {
+    background-color: transparent;
+}
 /*--------------------------------------------------------------------Events*/
 .essential-info {
     font-size: 15px;

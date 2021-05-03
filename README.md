@@ -61,6 +61,17 @@ For testing I have used the following:
 Displays errors when required fields have not been filled out. It also recognises if an invalid email address has been entered.
 
 <h2><strong>BUGS</strong></h2>
+Corrected bugs as development went on. All bugs that were found were mistyped elements or missing closing element tags.
+HTML code ran through W3C HTML Validator and shows no errors.
+CSS code ran through W3C CSS Validator and shows no errors.
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
 
 <h2><strong>DEPLOYMENT</strong></h2>
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
