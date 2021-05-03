@@ -1,45 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1><strong><u>SKYLIGHTS</strong></u></h1>
 
-Welcome BYates1289,
+One or two paragraphs providing an overview of your project.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Essentially, this part is your sales pitch.
 
-## Gitpod Reminders
+<h2><strong>UX</strong></h2>
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-`python3 -m http.server`
+As a user type, I want to perform an action, so that I can achieve a goal.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-A blue button should appear to click: _Make Public_,
+<h2><strong>FEATURES</strong></h2>
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Another blue button should appear to click: _Open Browser_.
+Existing Features
+Feature 1 - allows users X to achieve Y, by having them fill out Z
+...
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-A blue button should appear to click: _Make Public_,
+Features Left to Implement
+Another feature idea
 
-Another blue button should appear to click: _Open Browser_.
+<h2><strong>TECHNOLOGIES USED</strong></h2>
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+HTML
+CSS
+Bootstrap
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<h2><strong>TESTING</strong></h2>
+For testing I have used the following:
+    <ul>
+        <li>Google Developer Tools.</li>
+        <li>A host of web browsers.</li> 
+            <ul>
+                <li>Google Chrome</li>
+                <li>Firefox</li>
+                <li>Microsoft Edge</li>
+                <li>Safari</li>
+                <li>Internet Explorer 11</li>
+                <li>Opera</li>
+            </ul>
+        <li>A range of different devices.</li>
+            <ul>
+                <li>Desktop PC</li>
+                <li>Surface Pro 6</li>
+                <li>Apple iPad</li>
+                <li>Xiaomi Mi 8 Pro</li>
+                <li>Huawei P30 Pro</li>
+            </ul>
+        </li>
+    </ul>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<h3>Contact Form/Ticket Modal</h3>
+Displays errors when required fields have not been filled out. It also recognises if an invalid email address has been entered.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h2><strong>BUGS</strong></h2>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<h2><strong>DEPLOYMENT</strong></h2>
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Different values for environment variables (Heroku Config Vars)?
+Different configuration files?
+Separate git branch?
+In addition, if it is not obvious, you should also describe how to run your code locally.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+<h2><strong>CREDITS</strong></h2>
+<h3>Content</h3>
+The text for section Y was copied from the Wikipedia article Z
+<h3>Media</h3>
+The photos used in this site were obtained from ...
+<h2><strong>ACKNOWLEDGEMENTS</strong></h2>
+I received inspiration for this project from X
