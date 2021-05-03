@@ -7,8 +7,9 @@ html, body {
     overflow-x: hidden;
 }
 .heading {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 50px;
+    font-weight: 600;
 }
 .socials {
     background-color: #495057;
@@ -117,8 +118,9 @@ html, body {
     font-size: 15px;
 }
 .modal-header > h1 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 50px;
+    font-weight: 900;
     color: #d9534f;
     text-shadow: 1.2px 1.2px #000;
 }
@@ -148,7 +150,7 @@ html, body {
     .heading {
         font-size: 30px;
     }    
-    .meet p, .discography p, .gigs p {
+    .meet p, .discography p, .gigs p, .testimonial p {
         font-size: 14px;
     }
     .jumbotron-fluid {
@@ -164,7 +166,15 @@ html, body {
     }
     .chart-table {
         font-size: 13px;
-}
+    }
+    .sub-heading {
+        font-family: 'Special Elite', cursive;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #footer-bar {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width: 320px) {
     .jumbotron-fluid {
@@ -172,7 +182,7 @@ html, body {
         width: auto;
     }  
     .spotify {
-        width: 230px;
+        width: 270px;
         height: 80px;
     }
     .blockquote p {
@@ -180,6 +190,31 @@ html, body {
     }
     .chart-table {
         font-size: 14px;
+    }
+    #footer-bar {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 360px) {
+    .jumbotron-fluid {
+        height: 250px;
+        width: auto;
+    }  
+    .spotify {
+        width: 270px;
+        height: 80px;
+    }
+    .blockquote p {
+        font-size: 15px;
+    }
+    .chart-table {
+        font-size: 14px;
+    }
+    .sub-heading {
+        font-family: 'Special Elite', cursive;
+        font-size: 19px;
+        font-weight: 500;
+    }
 }
 @media only screen and (min-width: 576px) {
     .jumbotron-fluid {
@@ -209,6 +244,11 @@ html, body {
     .blockquote p {
         font-size: 21px;
     }
+    .sub-heading {
+        font-family: 'Special Elite', cursive;
+        font-size: 21px;
+        font-weight: 500;
+    }
 }
 @media only screen and (min-width: 992px) {
     .jumbotron-fluid {
@@ -218,6 +258,11 @@ html, body {
     .spotify {
         width: 300px;
         height: 80px;
+    }
+    .sub-heading {
+        font-family: 'Special Elite', cursive;
+        font-size: 20px;
+        font-weight: 500;
     }
 }
 @media only screen and (min-width: 1281px) {
@@ -237,7 +282,12 @@ html, body {
     .heading {
         font-size: 45px;
     }    
-    .meet p, .discography p, .gigs p {
+    .meet p, .discography p, .gigs p, .testimonial p {
         font-size: 16px;
+    }
+    .sub-heading {
+        font-family: 'Special Elite', cursive;
+        font-size: 24px;
+        font-weight: 500;
     }
 }
