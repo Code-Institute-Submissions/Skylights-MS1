@@ -61,10 +61,9 @@ For testing I have used the following:
 Displays errors when required fields have not been filled out. It also recognises if an invalid email address has been entered.
 
 <h2><strong>BUGS</strong></h2>
-Corrected bugs as development went on. All bugs that were found were mistyped elements or missing closing element tags.
+All bugs that were found throughout this project were mainly mistyped elements or missing closing element tags.
 HTML code ran through W3C HTML Validator and shows no errors.
 CSS code ran through W3C CSS Validator and shows no errors.
-
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
@@ -74,19 +73,11 @@ CSS code ran through W3C CSS Validator and shows no errors.
 </p>
 
 <h2><strong>DEPLOYMENT</strong></h2>
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+Development of my project was mainly through GitPod. I also used Visual Studio Code, whilst travelling for work, where internet access wasn't available.
 <h2><strong>CREDITS</strong></h2>
 <h3>Content</h3>
-The text for section Y was copied from the Wikipedia article Z
+The text content for my project has been sourced from various sites. Mainly, Skylights <a href="https://twitter.com/SkylightsYRA">Twitter</a> and <a href="https://www.instagram.com/skylights_yra">Instagram</a>, events website <a href="https://www.ents24.com/">Ents24</a> and the Spotify Skylights biography <a href="https://open.spotify.com/artist/66Gz29vqxLIyLZuBSUyJgP">page</a>. Other text material has been created by myself and although I have tried to be as accuate as possible, some things may not be 100% correct, such as dates etc.
 <h3>Media</h3>
-The photos used in this site were obtained from ...
+The photos used for my project were obtained from a few sources. The band photos were taken from Turnbull Smiths' Facebook <a href="https://www.facebook.com/turnbull.smith">profile</a>. The event posters were obtained from <a href="https://www.ents24.com/">Ents24</a> and Skylights Official <a href="https://www.skylightsyra.co.uk/">website</a>.
 <h2><strong>ACKNOWLEDGEMENTS</strong></h2>
-I received inspiration for this project from X
+I received inspiration for this project from <a href="https://bandzoogle.com/sample-band-sites">Bandzoogle</a>. I also Google searched a lot of popular band websites to see what content was available to their fans. I found almost all the websites I researched had a Discography section, which is why I included it in my project. I also liked that fans could purchase the bands songs through their websites, but that is beyond the scope of this project.
