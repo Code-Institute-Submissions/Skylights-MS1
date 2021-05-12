@@ -1,37 +1,36 @@
 <h1><strong><u>SKYLIGHTS</strong></u></h1>
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
 <h2><strong>UX</strong></h2>
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+This project was built to try and promote an up and coming band called Skylights, who are quite popular in the county of Yorkshire, England.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Whilst researching band websites, I felt more engaged with a single page site so I decided that was what I was going to do. I feel the structure and navigation works well.
+
+I decided to use a grey themed website. I decided to do this because a lot of the Skylights social media photos are black and white so I thought this would work well. I used https://coolors.co/ to find the exact colours I wanted to use.
+
+The website is fully responsive and works exactly as expected on all devices I have tested.
 
 <h2><strong>FEATURES</strong></h2>
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The Hero Image, contains a blockquote, which scales with the image. Font sizes change also, depending on screen size.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The About section gives a little bit of a background into the band, with photos of each member, who can be easily identified whilst hovering over the image.
 
-Features Left to Implement
-Another feature idea
+The Discography section shows the bands most popular songs. It also includes a full length music video from their latest song "Darkness Falls".
+The reason I included music was to try and engage potential fans who may not have heard of Skylights before.
+
+The Events section shows posters of upcoming events. These were created using Bootstrap cards. 
+It also includes a Buy Tickets modal, which brings up a form consisting of personal details, ticket selection and quantities as well as some information regarding the event and ticket availability. I have also included some user stories from fans which have attended past Skylights events.
+
+The Contact Us form includes personal details, a catagory drop down list and a free text field. All fields with an asterix are required before the message is sent. (There is no action called when the button is pressed.)
+
+In the Footer section, I have included a "Back to Top" arrow icon, which scrolls the user back to the top of the page. I feel this improves the user expe
 
 <h2><strong>TECHNOLOGIES USED</strong></h2>
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-HTML
-CSS
+HTML<br>
+CSS<br>
 Bootstrap
-
 
 <h2><strong>TESTING</strong></h2>
 For testing I have used the following:
