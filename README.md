@@ -1,5 +1,14 @@
 <h1><strong><u>SKYLIGHTS</strong></u></h1>
 
+The purpose of this site is to showcase and inform users about an up-and-coming band called Skylights, who are based in Yorkshire, England. I have included a few of Skylights' most popular tracks, which should appeal to anybody who is into their Indie/Rock genres, but could extend to anybody who enjoys upbeat music with good vocals.
+
+<h2><strong>Live Demo and Wireframe</strong></h2>
+
+<ul>
+    <li>A live demo can be found <a href="https://byates1289.github.io/ms1/">here</a>, hosted on GitHub pages.</li>
+    <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/ms1/tree/master/assets/docs/MS1.pdf">here</a>.</li>
+</ul>
+
 <h2><strong>UX</strong></h2>
 
 This project was built to try and promote an up and coming band called Skylights, who are quite popular in the county of Yorkshire, England.
@@ -60,8 +69,12 @@ For testing I have used the following:
 Displays errors when required fields have not been filled out. It also recognises if an invalid email address has been entered.
 
 <h2><strong>BUGS</strong></h2>
-All bugs that were found throughout this project were mainly mistyped elements or missing closing element tags.
-HTML code ran through W3C HTML Validator and shows no errors.
+
+Having used Bootstrap 5 for my project meant IE 11 or below would not be compatible. I wasn't too concerned by this, due to IE only having a <1.13% browser market share worldwide.
+Even Microsoft's own Microsoft Teams web application does not support IE11 as of November 2020 and Microsoft 365 to follow in August 2021.
+
+Most otherbugs that were found throughout this project were mainly mistyped elements or missing closing element tags.<br>
+HTML code ran through W3C HTML Validator and shows no errors.<br>
 CSS code ran through W3C CSS Validator and shows no errors.
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
