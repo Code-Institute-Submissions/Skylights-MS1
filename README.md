@@ -83,8 +83,8 @@ For testing I have used the following:
         <li><a href="https://fonts.google.com/">GoogleFonts</a>: Used for importing a number of fonts.</li>
         <li><a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>: Used to audit web page performance and accessibility. Score of 92 for performance and 94 for accessibility.</li>
         <li><a href="https://tools.pingdom.com/">SolarWinds Pingdom</a>: Website speed test. Results <a href="https://tools.pingdom.com/#5e61147d47c00000">here</a>.</li>
-        <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors.</li>
-        <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors.</li>
+        <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/HTML.pdf">here</a>.</li>
+        <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/CSS.pdf">here</a>.</li>
         <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"src="http://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!" /></a></p>
         <li>Google Developer Tools.</li>
         <li>A host of web browsers.</li> 
