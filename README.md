@@ -1,49 +1,91 @@
-<h1><strong><u>SKYLIGHTS</strong></u></h1>
-
+<h1><strong>SKYLIGHTS</strong></h1>
 The purpose of this site is to showcase and inform users about an up-and-coming band called Skylights, who are based in Yorkshire, England. I have included a few of Skylights' most popular tracks, which should appeal to anybody who is into their Indie/Rock genres, but could extend to anybody who enjoys upbeat music with good vocals.
 
-<h2><strong>Live Demo and Wireframe</strong></h2>
-
+<h1><strong>Deployment and Wireframe</strong></h1>
 <ul>
-    <li>A live demo can be found <a href="https://byates1289.github.io/ms1/">here</a>, hosted on GitHub pages.</li>
+    <li>The project has been deployed to Github. A live demo can be found <a href="https://byates1289.github.io/ms1/">here</a>, hosted on GitHub pages.</li>
     <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/ms1/tree/master/assets/docs/MS1.pdf">here</a>.</li>
 </ul>
-
-<h2><strong>UX</strong></h2>
-
-This project was built to try and promote an up and coming band called Skylights, who are quite popular in the county of Yorkshire, England.
-
-Whilst researching band websites, I felt more engaged with a single page site so I decided that was what I was going to do. I feel the structure and navigation works well.
-
-I decided to use a grey themed website. I decided to do this because a lot of the Skylights social media photos are black and white so I thought this would work well. I used https://coolors.co/ to find the exact colours I wanted to use.
-
-The website is fully responsive and works exactly as expected on all devices I have tested.
-
-<h2><strong>FEATURES</strong></h2>
-
-The Hero Image, contains a blockquote, which scales with the image. Font sizes change also, depending on screen size.
-
-The About section gives a little bit of a background into the band, with photos of each member, who can be easily identified whilst hovering over the image.
-
-The Discography section shows the bands most popular songs. It also includes a full length music video from their latest song "Darkness Falls".
-The reason I included music was to try and engage potential fans who may not have heard of Skylights before.
-
-The Events section shows posters of upcoming events. These were created using Bootstrap cards. 
-It also includes a Buy Tickets modal, which brings up a form consisting of personal details, ticket selection and quantities as well as some information regarding the event and ticket availability. I have also included some user stories from fans which have attended past Skylights events.
-
-The Contact Us form includes personal details, a catagory drop down list and a free text field. All fields with an asterix are required before the message is sent. (There is no action called when the button is pressed.)
-
-In the Footer section, I have included a "Back to Top" arrow icon, which scrolls the user back to the top of the page. I feel this improves the user expe
-
-<h2><strong>TECHNOLOGIES USED</strong></h2>
-
-HTML<br>
-CSS<br>
-Bootstrap
-
-<h2><strong>TESTING</strong></h2>
+<h1><strong>User Stories</strong></h1>
+<ul>
+    <li>As a website guest, I want to know about the bands influences.</li>
+    <li>As a website guest, I want to know the profiles of each band member.</li>
+    <li>As a website guest, I want to know about the bands achievements.</li>
+    <li>As a website guest, I want to hear some of their recent music.</li>
+    <li>As a website guest, I want to see if the band are hosting any future events.</li>
+    <li>As a website guest, I would like to know how to get in touch with the band to see if they could headline an event.</li>
+</ul>
+These goals were achieved in the following ways:
+<ul>
+    <li>The Meet The Band section, gives us an introduction to the band and each member. It also tells us about their musical influences.</li>
+    <li>We can see the bands biggest achievement to date in the Physical Charts table, located in the Discography section.</li>
+    <li>You will find the bands latest single, Darkness Falls, in the YouTube iFrame. Other previous songs can be found in the Spotify iFrames.</li>
+    <li>All planned future events are listed within the Events section. You will find locations, times and ticket information too.</li>
+    <li>If you are hosting an event, you are encouraged to use the Contact Form to get in touch with the band.</li>
+<h1><strong>UX</strong></h1>
+<h3><strong>Nav Bar</strong></h3>
+<ul>
+    <li>A clean, responsive Bootstrap Nav Bar. Navigation links centre on mobile devices.</li>
+    <li>Logo text resizes on smaller breakpoints to avoid Navbar Toggler icon moving underneath logo text.</li>
+</ul>
+<h3><strong>Hero Image</strong></h3>
+<ul>
+    <li>Reponsive band photo in black and white, which matches the colour theme of the rest of the website.</li>
+    <li>Blockquote nested at the bottom of the photo. Quote from respected DJ, John Kennedy from Radio X.</li>
+</ul>
+<h3><strong>Meet The Band</strong></h3>
+<ul>
+    <li>A brief introduction to the band and who their influences are. Fans of Oasis, Sex Pistols etc, will become intrigued and will want to learn more. Having celebrity followers such as <a href="https://en.wikipedia.org/wiki/Josh_Warrington">Josh Warrington</a> and Leeds United manager, <a href="https://en.wikipedia.org/wiki/Marcelo_Bielsa">Marcelo Bielsa</a>, could also peak interest of their respective fans.</li>
+    <li>Responsive individual photos of the band members, with hover affect showing the band members name and their role within the band.</li>
+</ul>
+<h3><strong>Discography</strong></h3>
+<ul>
+    <li>A responsive Physical Chart table from June 2020 showing, in my opinion, Skylights biggest achievement to date. This is engaging for fans, especially when they Skylights above artists such as <a href="https://en.wikipedia.org/wiki/The_Weeknd">The Weeknd</a>, who has won 3x Grammy Awards and 8x Billboard Music Awards, to name but a few.</li>
+    <li>A YouTube iFrame, that is fully responsive, showing a music video of Skylights latest single, Darkness Falls.</li>
+    <li>Spotify iFrames, which show other songs by Skylights. They play a 30 second snippet, but contain a link to the full song on Spotify. The widths have been changed in different media queries so they are fully responsive.</li>
+</ul>
+<h3><strong>Upcoming Events</strong></h3>
+<ul>
+    <li>Responsive Bootstrap cards for upcoming events. Containing event information such as locations and dates.</li>
+    <li>Buy Ticket modal containing purchase form. Bootstrap progress bar, displaying quantity of tickets remaining. No form action is called. Responsive and centered.</li>
+    <li>Testimonials of people who have attended previous Skylights events. This could appeal to potential fans who live in the area and have not attended an event yet.</li>
+</ul>
+<h3><strong>Contact Us</strong></h3>
+<ul>
+    <li>Bootstrap form with required fields. Form does not call any action when Send Message button is clicked.</li>
+</ul>
+<h3><strong>Footer</strong></h3>
+<ul>
+    <li>Social buttons which linked to the homepages of their respective sites.</li>
+    <li>Font Awesome "Up" arrow which brings the user back to the top of the page.</li>
+</ul>
+<h1><strong>Languages and Frameworks</strong></h1>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap 5</li>
+    <li>JQuery (with Bootstrap)</li>
+</ul>
+<h1><strong><u>Features</u></strong></h1>
+I feel that the main features within this project are the following:
+<ul>
+    <li>YouTube iFrame</li>
+    <li>Spotify iFrame</li>
+</ul><br>
+As a website user, I think these features are going to be the most engaging and it will be these features that will likely establish a connection to new fans.
+<h1><strong>Testing</strong></h1>
 For testing I have used the following:
     <ul>
+        <li><a href="https://balsamiq.com/">Balsamiq</a>: Used to create Wireframes.</li>
+        <li><a href="https://www.gitpod.io/">GitPod</a>: Used for creating and editing code.</li>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a>: Used for creating and editing code, when travelling for work.</li>
+        <li><a href="https://fontawesome.com/">FontAwesome</a>: Used for icons throughout the project.</li>
+        <li><a href="https://fonts.google.com/">GoogleFonts</a>: Used for importing a number of fonts.</li>
+        <li><a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>: Used to audit web page performance and accessibility. Score of 92 for performance and 94 for accessibility.</li>
+        <li><a href="https://tools.pingdom.com/">SolarWinds Pingdom</a>: Website speed test. Results <a href="https://tools.pingdom.com/#5e61147d47c00000">here</a>.</li>
+        <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors.</li>
+        <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors.</li>
+        <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"src="http://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!" /></a></p>
         <li>Google Developer Tools.</li>
         <li>A host of web browsers.</li> 
             <ul>
@@ -61,35 +103,33 @@ For testing I have used the following:
                 <li>Apple iPad</li>
                 <li>Xiaomi Mi 8 Pro</li>
                 <li>Huawei P30 Pro</li>
-            </ul>
-        </li>
+            </ul>        
     </ul>
-
-<h3>Contact Form/Ticket Modal</h3>
-Displays errors when required fields have not been filled out. It also recognises if an invalid email address has been entered.
-
-<h2><strong>BUGS</strong></h2>
-
-Having used Bootstrap 5 for my project meant IE 11 or below would not be compatible. I wasn't too concerned by this, due to IE only having a <1.13% browser market share worldwide.
-Even Microsoft's own Microsoft Teams web application does not support IE11 as of November 2020 and Microsoft 365 to follow in August 2021.
-
-Most otherbugs that were found throughout this project were mainly mistyped elements or missing closing element tags.<br>
-HTML code ran through W3C HTML Validator and shows no errors.<br>
-CSS code ran through W3C CSS Validator and shows no errors.
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
-
-<h2><strong>DEPLOYMENT</strong></h2>
-Development of my project was mainly through GitPod. I also used Visual Studio Code, whilst travelling for work, where internet access wasn't available.
-<h2><strong>CREDITS</strong></h2>
-<h3>Content</h3>
-The text content for my project has been sourced from various sites. Mainly, Skylights <a href="https://twitter.com/SkylightsYRA">Twitter</a> and <a href="https://www.instagram.com/skylights_yra">Instagram</a>, events website <a href="https://www.ents24.com/">Ents24</a> and the Spotify Skylights biography <a href="https://open.spotify.com/artist/66Gz29vqxLIyLZuBSUyJgP">page</a>. Other text material has been created by myself and although I have tried to be as accuate as possible, some things may not be 100% correct, such as dates etc.
-<h3>Media</h3>
-The photos used for my project were obtained from a few sources. The band photos were taken from Turnbull Smiths' Facebook <a href="https://www.facebook.com/turnbull.smith">profile</a>. The event posters were obtained from <a href="https://www.ents24.com/">Ents24</a> and Skylights Official <a href="https://www.skylightsyra.co.uk/">website</a>.
-<h2><strong>ACKNOWLEDGEMENTS</strong></h2>
-I received inspiration for this project from <a href="https://bandzoogle.com/sample-band-sites">Bandzoogle</a>. I also Google searched a lot of popular band websites to see what content was available to their fans. I found almost all the websites I researched had a Discography section, which is why I included it in my project. I also liked that fans could purchase the bands songs through their websites, but that is beyond the scope of this project.
+<h1><strong>Bugs</strong></h1>
+<ul>
+    <li>Having used Bootstrap 5 for my project meant Internet Explorer 11 or below would not be compatible. I wasn't too concerned by this, due to IE only having a 0.64% browser market share worldwide, as reported by <a href="https://www.oberlo.co.uk/statistics/browser-market-share">Oberlo</a>.</li>
+</ul>
+<h1><strong>Deployment</strong></h1>
+<ul>
+    <li>Development of my project was mainly through GitPod. I also used Visual Studio Code, whilst travelling for work, where internet access wasn't available.</li>
+</ul>
+<h1><strong>Research</strong></h1>
+<ul>
+    <li>My research for this project consisted of Google searching many popular bands website and seeing what content they displayed for their fans. I also found the website, <a href="https://bandzoogle.com/sample-band-sites">Bandzoogle</a>, very helpful.</li>
+</ul>
+<h1><strong>Credits</strong></h1>
+<h3><strong>Content</strong></h3>
+<ul>
+    <li>The text content for my project has been sourced from various sites. Mainly, Skylights <a href="https://twitter.com/SkylightsYRA">Twitter</a> and <a href="https://www.instagram.com/skylights_yra">Instagram</a>, events website <a href="https://www.ents24.com/">Ents24</a> and the Spotify Skylights biography <a href="https://open.spotify.com/artist/66Gz29vqxLIyLZuBSUyJgP">page</a>. Other text material has been created by myself and although I have tried to be as accuate as possible, some things may not be 100% correct.</li>
+</ul>
+<h3><strong>Media</strong></h3>
+<ul>
+    <li>The photos used for my project were obtained from a few sources. The band photos were taken from Turnbull Smiths' Facebook <a href="https://www.facebook.com/turnbull.smith">profile</a>. The event posters were obtained from <a href="https://www.ents24.com/">Ents24</a> and Skylights Official <a href="https://www.skylightsyra.co.uk/">website</a>.</li>
+</ul>
+<h1><strong>Acknowledgements</strong></h1>
+<ul>
+    <li>Bootstrap official documentation.</li>
+    <li>Stack Overflow.</li>
+    <li>Craig Shoemaker, Barry Luijbregts and Mario Duilio Macari at <a href="https://www.pluralsight.com/">Pluralsight</a> for their excellent Bootstrap and CSS content.</li>
+    <li>Felipe Souza Alarcon, my Code Institute mentor.</li>
+    <li>The Code Institute Slack community.</li>
