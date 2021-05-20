@@ -1,19 +1,12 @@
 <h1><strong>SKYLIGHTS</strong></h1>
 <img src="/assets/images/AIR.JPG">
-
-
-
-
-
-
 The purpose of this site is to showcase and inform users about an up-and-coming band called Skylights, who are based in Yorkshire, England. I have included a few of Skylights' most popular tracks, which should appeal to anybody who is into their Indie/Rock genres, but could extend to anybody who enjoys upbeat music with good vocals.
-
-<h1><strong>Deployment and Wireframe</strong></h1>
+<h1><strong>Demo</strong></h1>
 <ul>
     <li>The project has been deployed to Github. A live demo can be found <a href="https://byates1289.github.io/ms1/">here</a>, hosted on GitHub pages.</li>
-    <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/ms1/tree/master/assets/docs/MS1.pdf">here</a>.</li>
 </ul>
-<h1><strong>User Stories</strong></h1>
+<h1><strong>UX</strong></h1>
+<h3><strong>User Stories</strong></h3>
 <ul>
     <li>As a person who has just discovered Skylights, I want to know about the bands influences.</li>
     <li>As an Indie/Rock music fan, I want to hear some of Skylights' music.</li>
@@ -21,7 +14,25 @@ The purpose of this site is to showcase and inform users about an up-and-coming 
     <li>As a huge Skylights fan, I want to see if the band are hosting any upcoming events.</li>
     <li>As a Promoter or Venue Owner, I would like to get in touch with the band to see if they could headline an event.</li>
 </ul>
-<h1><strong>UX</strong></h1>
+<h3><strong>Design</strong></h3>
+<ul>
+    <li><strong>Wireframes</strong></li>
+        <ul>
+            <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/ms1/tree/master/assets/docs/MS1.pdf">here</a>.</li>
+        </ul>
+    <li><strong>Colour Scheme</strong></li>
+        <ul>
+            <li>I decided to do a contrasting grey colour scheme for my project. The website <a href="https://coolors.co/">Coolors</a> helped me achieve this.
+        </ul>
+    <li><strong>Typography</strong>
+        <ul>
+            <li>'Roboto' is the main font thoughout this project with Sans Serif as the fallback font just in case for any reason the font isn't being imported into the site correctly. I have used 'Special Elite' for the Headings and the logo font is 'Archivo Black.'</li>
+        </ul>
+    <li><strong>Images</strong>
+        <ul>
+            <li>The large, black and white hero image is designed to be striking and catch the user's attention. It also fits in nicely with the theme of the website.</li>
+        </ul>
+</ul>
 <h3><strong>Nav Bar</strong></h3>
 <ul>
     <li>A clean, responsive Bootstrap Nav Bar. Navigation links centre on mobile devices.</li>
@@ -66,12 +77,13 @@ The purpose of this site is to showcase and inform users about an up-and-coming 
     <li>JQuery (with Bootstrap)</li>
 </ul>
 <h1><strong><u>Features</u></strong></h1>
-I feel that the main features within this project are the following:
 <ul>
-    <li>YouTube iFrame</li>
-    <li>Spotify iFrame</li>
-</ul><br>
-As a website user, I think these features are going to be the most engaging and it will be these features that will likely establish a connection to new fans.
+    <li>Profile photos of each member, with hover effect showing their name and role in the band.</li>
+    <li>Responsive chart table, highlighting Skylights' position.</li>
+    <li>YouTube and Spotify iFrames.</li>
+    <li>Buy Ticket Modal with purchase form.</li>
+    <li>Contact form with required fields.</li>
+</ul>
 <h1><strong>Testing</strong></h1>
 For testing I have used the following:
     <ul>
@@ -105,19 +117,18 @@ For testing I have used the following:
     </ul>
 <h1><strong>Bugs</strong></h1>
 <ul>
-    <li>Having used Bootstrap 5 for my project meant Internet Explorer 11 or below would not be compatible. I wasn't too concerned by this, due to IE only having a 0.64% browser market share worldwide, as reported by <a href="https://www.oberlo.co.uk/statistics/browser-market-share">Oberlo</a>.</li>
+    <li>I used Bootstrap 5 for my project, which meant Internet Explorer 11 or below would not be compatible. I wasn't too concerned by this, due to IE only having a 0.64% browser market share worldwide, as reported by <a href="https://www.oberlo.co.uk/statistics/browser-market-share">Oberlo</a>.</li>
 </ul>
 <h1><strong>Deployment</strong></h1>
-<ul>
-    <li>The development of my project was through GitPod. The project was deployed onto GitHub Pages. To achieve this, I carried out the following steps:</li>
-    <ul>
+The development of my project was through GitPod. The project was deployed onto GitHub Pages. To achieve this, I carried out the following steps:
+    <ol>
         <li>I logged into GitHub and selected <i>Repositories</i>. I then selected <i>New</i> to create my new Repository.</li>
         <li>I named my Repository "MS1" (Milestone 1), and selected the Code Institute <i>Repository Template</i>, so that I didn't need to download any extra Extensions within GitPod.</li>
-        <li>I then selected <i>Create Repository</i>, ensuring this was also set to Public.</li>
+        <li>I then selected <i>Create Repository</i>, ensuring this was also set to <i>Public</i>.</li>
         <li>Once the repository was created, I then went to <i>Settings</i> and scrolled down to <i>Pages</i>.
         <li>I changed the <i>Source</i> from <i>None</i> to <i>Master</i>, then selected <i>Save</i>.
         <li>After a few minutes, my page was then visable when browsing via the unique GitHub link, shown in the <i>Pages</i> section.</li>
-    </ul>
+    </ol>
 <h1><strong>Research</strong></h1>
 <ul>
     <li>My research for this project consisted of Google searching many popular bands website and seeing what content they displayed for their fans. I also found the website, <a href="https://bandzoogle.com/sample-band-sites">Bandzoogle</a>, very helpful.</li>
@@ -135,6 +146,7 @@ For testing I have used the following:
 <ul>
     <li>Bootstrap official documentation.</li>
     <li>Stack Overflow.</li>
+    <li><a href="https://coolors.co/">Coolors</a> for providing colour scheme for my project.
     <li>Craig Shoemaker, Barry Luijbregts and Mario Duilio Macari at <a href="https://www.pluralsight.com/">Pluralsight</a> for their excellent Bootstrap and CSS content.</li>
     <li>Felipe Souza Alarcon, my Code Institute mentor.</li>
     <li>The Code Institute Slack community.</li>
