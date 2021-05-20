@@ -1,4 +1,11 @@
 <h1><strong>SKYLIGHTS</strong></h1>
+<img src="/assets/images/AIR.JPG">
+
+
+
+
+
+
 The purpose of this site is to showcase and inform users about an up-and-coming band called Skylights, who are based in Yorkshire, England. I have included a few of Skylights' most popular tracks, which should appeal to anybody who is into their Indie/Rock genres, but could extend to anybody who enjoys upbeat music with good vocals.
 
 <h1><strong>Deployment and Wireframe</strong></h1>
@@ -8,20 +15,12 @@ The purpose of this site is to showcase and inform users about an up-and-coming 
 </ul>
 <h1><strong>User Stories</strong></h1>
 <ul>
-    <li>As a website guest, I want to know about the bands influences.</li>
-    <li>As a website guest, I want to know the profiles of each band member.</li>
-    <li>As a website guest, I want to know about the bands achievements.</li>
-    <li>As a website guest, I want to hear some of their recent music.</li>
-    <li>As a website guest, I want to see if the band are hosting any future events.</li>
-    <li>As a website guest, I would like to know how to get in touch with the band to see if they could headline an event.</li>
+    <li>As a person who has just discovered Skylights, I want to know about the bands influences.</li>
+    <li>As an Indie/Rock music fan, I want to hear some of Skylights' music.</li>
+    <li>As a fan or potential fan, I would like to follow Skylights on their social platforms.</li>
+    <li>As a huge Skylights fan, I want to see if the band are hosting any upcoming events.</li>
+    <li>As a Promoter or Venue Owner, I would like to get in touch with the band to see if they could headline an event.</li>
 </ul>
-These goals were achieved in the following ways:
-<ul>
-    <li>The Meet The Band section, gives us an introduction to the band and each member. It also tells us about their musical influences.</li>
-    <li>We can see the bands biggest achievement to date in the Physical Charts table, located in the Discography section.</li>
-    <li>You will find the bands latest single, Darkness Falls, in the YouTube iFrame. Other previous songs can be found in the Spotify iFrames.</li>
-    <li>All planned future events are listed within the Events section. You will find locations, times and ticket information too.</li>
-    <li>If you are hosting an event, you are encouraged to use the Contact Form to get in touch with the band.</li>
 <h1><strong>UX</strong></h1>
 <h3><strong>Nav Bar</strong></h3>
 <ul>
@@ -78,7 +77,6 @@ For testing I have used the following:
     <ul>
         <li><a href="https://balsamiq.com/">Balsamiq</a>: Used to create Wireframes.</li>
         <li><a href="https://www.gitpod.io/">GitPod</a>: Used for creating and editing code.</li>
-        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a>: Used for creating and editing code, when travelling for work.</li>
         <li><a href="https://fontawesome.com/">FontAwesome</a>: Used for icons throughout the project.</li>
         <li><a href="https://fonts.google.com/">GoogleFonts</a>: Used for importing a number of fonts.</li>
         <li><a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>: Used to audit web page performance and accessibility. Score of 92 for performance and 94 for accessibility.</li>
@@ -111,8 +109,15 @@ For testing I have used the following:
 </ul>
 <h1><strong>Deployment</strong></h1>
 <ul>
-    <li>Development of my project was mainly through GitPod. I also used Visual Studio Code, whilst travelling for work, where internet access wasn't available.</li>
-</ul>
+    <li>The development of my project was through GitPod. The project was deployed onto GitHub Pages. To achieve this, I carried out the following steps:</li>
+    <ul>
+        <li>I logged into GitHub and selected <i>Repositories</i>. I then selected <i>New</i> to create my new Repository.</li>
+        <li>I named my Repository "MS1" (Milestone 1), and selected the Code Institute <i>Repository Template</i>, so that I didn't need to download any extra Extensions within GitPod.</li>
+        <li>I then selected <i>Create Repository</i>, ensuring this was also set to Public.</li>
+        <li>Once the repository was created, I then went to <i>Settings</i> and scrolled down to <i>Pages</i>.
+        <li>I changed the <i>Source</i> from <i>None</i> to <i>Master</i>, then selected <i>Save</i>.
+        <li>After a few minutes, my page was then visable when browsing via the unique GitHub link, shown in the <i>Pages</i> section.</li>
+    </ul>
 <h1><strong>Research</strong></h1>
 <ul>
     <li>My research for this project consisted of Google searching many popular bands website and seeing what content they displayed for their fans. I also found the website, <a href="https://bandzoogle.com/sample-band-sites">Bandzoogle</a>, very helpful.</li>
