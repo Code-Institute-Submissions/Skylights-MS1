@@ -3,7 +3,7 @@
 The purpose of this site is to showcase and inform users about an up-and-coming band called Skylights, who are based in Yorkshire, England. I have included a few of Skylights' most popular tracks, which should appeal to anybody who is into their Indie/Rock genres, but could extend to anybody who enjoys upbeat music with good vocals.
 <h1><strong>Demo</strong></h1>
 <ul>
-    <li>The project has been deployed to Github. A live demo can be found <a href="https://byates1289.github.io/ms1/">here</a>, hosted on GitHub pages.</li>
+    <li>The project has been deployed to Github. A live demo can be found <a href="https://byates1289.github.io/Skylights-MS1/">here</a>, hosted on GitHub pages.</li>
 </ul>
 <h1><strong>UX</strong></h1>
 <h3><strong>User Stories</strong></h3>
@@ -18,7 +18,7 @@ The purpose of this site is to showcase and inform users about an up-and-coming 
 <ul>
     <li><strong>Wireframes</strong></li>
         <ul>
-            <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/ms1/tree/master/assets/docs/MS1.pdf">here</a>.</li>
+            <li>The wireframes used to help build my project can be found <a href="https://github.com/BYates1289/Skylights-MS1/blob/master/assets/docs/MS1.pdf">here</a>.</li>
         </ul>
     <li><strong>Colour Scheme</strong></li>
         <ul>
@@ -94,8 +94,8 @@ For testing I have used the following:
         <li><a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>: Used to audit web page performance and accessibility. Score of 92 for performance and 94 for accessibility.</li>
         <li><a href="https://tinypng.com/">TinyPNG</a>: Used to compress site images, resulting in faster load times.</li>
         <li><a href="https://tools.pingdom.com/">SolarWinds Pingdom</a>: Website speed test. Results <a href="https://tools.pingdom.com/#5e61147d47c00000">here</a>.</li>
-        <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/HTML.pdf">here</a>.</li>
-        <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/CSS.pdf">here</a>.</li>
+        <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors. Results <a href="https://github.com/BYates1289/Skylights-MS1/blob/master/assets/docs/HTML.pdf">here</a>.</li>
+        <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors. Results <a href="https://github.com/BYates1289/Skylights-MS1/blob/master/assets/docs/CSS.pdf">here</a>.</li>
         <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"src="http://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!" /></a></p>
         <li>Google Developer Tools.</li>
         <li>A host of web browsers.</li> 
@@ -131,7 +131,7 @@ For testing I have used the following:
 The development of my project was through GitPod. The project was deployed onto GitHub Pages. To achieve this, I carried out the following steps:
     <ol>
         <li>I logged into GitHub and selected <i>Repositories</i>. I then selected <i>New</i> to create my new Repository.</li>
-        <li>I named my Repository "MS1" (Milestone 1), and selected the Code Institute <i>Repository Template</i>, so that I didn't need to download any extra Extensions within GitPod.</li>
+        <li>I named my Repository "Skylights-MS1" (Milestone 1), and selected the Code Institute <i>Repository Template</i>, so that I didn't need to download any extra Extensions within GitPod.</li>
         <li>I then selected <i>Create Repository</i>, ensuring this was also set to <i>Public</i>.</li>
         <li>Once the repository was created, I then went to <i>Settings</i> and scrolled down to <i>Pages</i>.
         <li>I changed the <i>Source</i> from <i>None</i> to <i>Master</i>, then selected <i>Save</i>.
