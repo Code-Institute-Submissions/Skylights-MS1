@@ -76,7 +76,7 @@ The purpose of this site is to showcase and inform users about an up-and-coming 
     <li>Bootstrap 5</li>
     <li>JQuery (with Bootstrap)</li>
 </ul>
-<h1><strong><u>Features</u></strong></h1>
+<h1><strong>Features</strong></h1>
 <ul>
     <li>Profile photos of each member, with hover effect showing their name and role in the band.</li>
     <li>Responsive chart table, highlighting Skylights' position.</li>
@@ -90,8 +90,9 @@ For testing I have used the following:
         <li><a href="https://balsamiq.com/">Balsamiq</a>: Used to create Wireframes.</li>
         <li><a href="https://www.gitpod.io/">GitPod</a>: Used for creating and editing code.</li>
         <li><a href="https://fontawesome.com/">FontAwesome</a>: Used for icons throughout the project.</li>
-        <li><a href="https://fonts.google.com/">GoogleFonts</a>: Used for importing a number of fonts.</li>
+        <li><a href="https://fonts.google.com/">GoogleFonts</a>: Used for importing a number of fonts.</li
         <li><a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>: Used to audit web page performance and accessibility. Score of 92 for performance and 94 for accessibility.</li>
+        <li><a href="https://tinypng.com/">TinyPNG</a>: Used to compress site images, resulting in faster load times.</li>
         <li><a href="https://tools.pingdom.com/">SolarWinds Pingdom</a>: Website speed test. Results <a href="https://tools.pingdom.com/#5e61147d47c00000">here</a>.</li>
         <li><a href="https://validator.w3.org/">W3C HTML Validator</a>: Used to check for HTML errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/HTML.pdf">here</a>.</li>
         <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>: Used to check for CSS errors. Results <a href="https://github.com/BYates1289/ms1/blob/master/assets/docs/CSS.pdf">here</a>.</li>
@@ -114,6 +115,13 @@ For testing I have used the following:
                 <li>Xiaomi Mi 8 Pro</li>
                 <li>Huawei P30 Pro</li>
             </ul>        
+    </ul>
+    <ul>
+        <li>All header links have been tested on all above devices and work as expected, taking the user to the correct locations on the page.</li>
+        <li>All social icon links will open in a new tab within the browser.</li>
+        <li>The YouTube and Spotify iFrames will open in a new  tab within the browser if the user wishes to view on <a href="https://youtube.com">YouTube</a> or <a href="https://spotify.com">Spotify</a>.</li>
+        <li>The "Up" arrow located in the page footer will take the user back to the top of the page. This has been tested on the above devices and browsers.</li>
+        <li>The "Close" button within the ticket modal will dismiss the modal and return the user back to the home page.</li>
     </ul>
 <h1><strong>Bugs</strong></h1>
 <ul>
